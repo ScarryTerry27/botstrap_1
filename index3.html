@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottstrap</title>
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="https://kit.fontawesome.com/9318511c72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <nav aria-label="breadcrumb" class="col-4 pt-2 pb-1">
+                    <ol class="breadcrumb text-white fw-lighter">
+                        <li class="img"></li>
+                        <li class="breadcrumb-item active text-white fs-6 mx-2">
+                        <a href="/Home" class="text-white text-decoration-none text-opacity-50">Home</a></li>
+                        <li class="breadcrumb-item mx-2"><a href="/Setting" class="text-white text-decoration-none text-opacity-50">Homework</a></li>
+                        <li class="breadcrumb-item mx-2"  aria-current="page">Setting</li>
+                    </ol>
+                </nav>
+            <div class="col userphoto"></div>
+            </div>
+        </div>
+        <h2 class="text-center fw-light">Setting</h2>
+        <div class="container-fluid">
+            <div class="row bg-info text-primary text-center fw-medium mb-3">
+                <div class="col-2">AVATAR</div>
+                <div class="col-5">STUDENT'INFO</div>
+                <div class="col-5">CHANGE PASSWORD</div>
+                </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="avatar"></div>
+                    <button class="btn bg-secondary text-white w-100">Choose photo</button>
+                </div>
+                <div class="col-5">
+                    <form action="main.py">
+                        <input type="text" placeholder="First name" class="form-control mb-3">
+                        <input type="text" placeholder="Last name" class="form-control mb-3">
+                        <input type="email" placeholder="Email" class="form-control mb-3">
+                        <input type="tel" placeholder="Phone number" class="form-control mb-3">
+                        <input type="text" placeholder="Address" class="form-control mb-3">
+                        <input type="url" placeholder="Fb link" class="form-control mb-3">
+                    </form>
+                    <button class="btn bg-secondary text-white w-100">Save Changes</button>
+                </div>
+                <div class="col-5">
+                    <form action="main.py">
+                        <input type="password" placeholder="Old password" class="form-control mb-3">
+                        <input type="password" placeholder="New password" class="form-control mb-3">
+                        <input type="password" placeholder="Repeat password" class="form-control mb-3">
+                    </form>
+                    <div class="btn bg-secondary text-white w-100">Change password</div>
+                </div>
+        </div>

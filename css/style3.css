@@ -1,0 +1,35 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '';
+}
+
+.img, .userphoto { 
+    position: relative;   
+    background-size: contain;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    top: 2px;
+    background-image: url(../img/img_header.png);
+}
+
+.userphoto {
+    width: 35px;
+    height: 35px;
+    top: 5px;
+    left: 55%;
+    background-image: url(../img/av_64.png);
+}
+
+.col-2>.avatar {
+    width: 100%;
+    height: 55%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/av_256.png');
+}
